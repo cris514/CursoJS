@@ -24,6 +24,7 @@ saludo("cris”);
 -Así al momento de mandar a imprimir document.write(" -hola " + nombre); La función ya tendrá asignado el valor cris.
 saludo("cris"); Es una variable anonima.
 */
+
 //Ejemplo 2
 function imprimir(nombre, apellido){
   apellido = apellido || "No ingreso apellido"
