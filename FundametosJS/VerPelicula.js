@@ -8,7 +8,7 @@ const MinimoEdad = 14
 const nombreCris = "cris"
 const edadCris = 22
 
-const nombreEd = "Ed"
+const nombreEd = "Ed"  
 const edadEd = 13
 
 function restriccionEdad (nombre,edad, acompañadoAdulto = false ){

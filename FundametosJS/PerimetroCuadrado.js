@@ -7,7 +7,7 @@ let lado = (UserL1);
 let perimetroCuadrado = (lado) => {
   return lado*4
 }
-/*       Forma normal
+/*       Forma normal 
 function perimetroCuadrado (lado){
   return lado * 4
 }

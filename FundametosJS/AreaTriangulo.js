@@ -12,7 +12,7 @@ let altura = (Useraltura);
 let areaTriangulo = (base, altura) => {
   return base * altura / 2
 
-}
+} 
 
 // Con comilla invertida ``, no hace falta concatenar y permite incluir codigo dentro del string.
 document.write(`El area de un triangulo de base:${base}

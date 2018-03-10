@@ -21,7 +21,7 @@ function idioma(str){
 // Se debe partir a la mitad y unir ccon un guion del medio.
 const longuitud = traduccion.length
 if (longuitud >= 10 ) {
-  // Particion desde el inicio a la mitad.
+  // Particion desde el inicio a la mitad. 
   // Math.round, dedondea el valor de la division.
   const primerMitad = traduccion.slice(0, Math.round(longuitud / 2))
     // Particion desde la mitad al final.
