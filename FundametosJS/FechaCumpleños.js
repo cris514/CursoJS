@@ -46,8 +46,8 @@ const mes = [
 ]
 
 // proximo Cumpleaños
-const proximocumple = new Date(hoy.getFullYear(), nacimiento.getMonth())
+const proximocumple = new Date(hoy.getFullYear(), nacimiento.getMonth(), nacimiento.getDate())
 console.log(` siguiente cumpleaños: ${proximocumple}`);
 
 // Dia siguiente cumpleños
-console.log(`${diasSemana[proximocumple.getDay()]}, ${mes[proximocumple.getMonth()]}`);
+console.log(`${diasSemana[proximocumple.getDay()]}, ${mes[proximocumple.getMonth()]}, ${proximocumple.getDate()}, ${proximocumple.getFullYear()}`);
