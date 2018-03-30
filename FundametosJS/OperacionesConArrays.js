@@ -4,6 +4,6 @@ function suma(...numeros){
   for (var i = 0; i < numeros.length; i++) {
     acum += numeros[i]
   }
-return acum
+  return acum
 }
-suma(4, 5, 12, 9999, 9)
+suma(4,4,4,4)
